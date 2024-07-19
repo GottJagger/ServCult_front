@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import LineChart from './components/linealchart';  // Importa el componente LineChart
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <LineChart />  {/* Monta el componente LineChart aquí */}
+      </main>
     </div>
   );
 }
